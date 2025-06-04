@@ -23,12 +23,12 @@ const SignIn = () => {
               <header className='header'>
                   <Link to="/">
                     <img 
-                      src='/assets/icons/logo.svg'
+                      src='/assets/images/cherrytour1.png'
                       alt="logo"
                       className='size-[30px]'
                     />
                   </Link>
-                  <h1 className='p-28-bold text-dark-100'>PeachTour</h1>
+                  <h1 className='p-28-bold text-dark-100'>CherryTour</h1>
               </header>
 
               <article>
