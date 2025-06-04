@@ -11,6 +11,7 @@
 @theme {
   --font-figtree: "Figtree", sans-serif;
   --font-inter: "Inter", sans-serif;
+  --color-gold-100: #DBC078;
   --color-dark-100: #1f1f36;
   --color-dark-200: #141627;
   --color-dark-300: #101828;
@@ -39,7 +40,7 @@
   --color-red-100: #ff543d;
 
   --background-image-auth: url("/assets/images/auth-img.webp");
-  --background-image-hero: url("/assets/images/hero-img.png");
+  --background-image-hero: url("/assets/images/cherrybanner2.png");
   --background-image-card-1: url("/assets/images/card-img-1.png");
   --background-image-card-2: url("/assets/images/card-img-2.png");
   --background-image-card-3: url("/assets/images/card-img-3.png");
@@ -438,7 +439,7 @@
     @apply text-sm md:text-base font-semibold;
   }
   .button-class {
-    @apply !bg-primary-100 !px-4 !rounded-lg !flex !items-center !justify-center !gap-1.5 !shadow-none;
+    @apply !bg-gold-100 !px-4 !rounded-lg !flex !items-center !justify-center !gap-1.5 !shadow-none;
   }
   .button-class-secondary {
     @apply !bg-white !px-4 !rounded-lg !flex !items-center !justify-center !gap-1.5 !shadow-sm;

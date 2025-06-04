@@ -18,8 +18,8 @@ const RootNavbar = () => {
         <nav className={cn(location.pathname === `/travel/${params.tripId}` ? 'bg-white' : 'glassmorphism', 'w-full fixed z-50')}>
             <header className="root-nav wrapper">
                 <Link to='/' className="link-logo">
-                    <img src="/assets/icons/logo.svg" alt="logo" className="size-[30px]" />
-                    <h1>Tourvisto</h1>
+                    <img src="/assets/images/cherrytour1.png" alt="logo" className="size-[30px]" />
+                    <h1>CherryTour</h1>
                 </Link>
 
                 <aside>

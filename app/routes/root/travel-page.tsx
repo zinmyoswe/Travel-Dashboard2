@@ -84,7 +84,7 @@ const TravelPage = ({ loaderData }: Route.ComponentProps) => {
 
                         <Link to="#trips">
                             <ButtonComponent type="button" className="button-class !h-11 !w-full md:!w-[240px]">
-                                <span className="p-16-semibold text-white">
+                                <span className="p-16-semibold text-white bg-gold-100 ">
                                     Get Started
                                 </span>
                             </ButtonComponent>
@@ -180,11 +180,11 @@ const TravelPage = ({ loaderData }: Route.ComponentProps) => {
                 <div className="wrapper footer-container">
                     <Link to="/">
                         <img
-                            src="/assets/icons/logo.svg"
+                            src="/assets/images/cherrytour1.png"
                             alt="logo"
                             className="size-[30px]"
                         />
-                        <h1>Tourvisto</h1>
+                        <h1>CherryTour</h1>
                     </Link>
 
                     <div>
